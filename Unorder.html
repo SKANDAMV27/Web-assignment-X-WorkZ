@@ -9,7 +9,7 @@
             list-style-type: none;
             background-color: turquoise;
             left: 500px;
-            text-align: end;
+            text-align: midle;
             font-family: Georgia, 'Times New Roman', Times, serif;
             color: bisque;
         }
@@ -33,14 +33,31 @@
             
         }
         ol{
-            background-color: aqua;
+            background-color: #450505;
             width: fit-content;
             list-style-type: none;
             left: 500px;
             align-items: end;
             padding: 0px;
             margin-right: 500px;
+            color :gbr(red purple green)   
+        }
+        
+        .dropdown{
+            position: relative;
+        }
+        .dropdown-content{
+            position: absolute;
+            display: none;
+            color: #450505;
+            padding: 12px 16px;
+            background-color: rgb(55,42,152);
+
             
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+
         }
     </style>
 </head>
@@ -55,8 +72,20 @@
     <ol>
         <li><button><a href="https://www.flipkart.com/" target="_blank">flipkart</a></button></li>
         <li><button><a href="https://mail.google.com/mail/u/0/" target="_blank">email</a></button></li>
-        <li><button><a href="https://www.amazon.com/" target="_blank">amazon</a></button></li>
-        <li><button><a href="https://www.google.com/maps" target="_blank">Maps</a></button></li>
+        <li class="dropdown"><button><a href="https://www.amazon.com/" target="_blank">amazon
+            <div class="dropdown-content">
+                <div>Shoes</div>
+                <div>Slipper</div>
+            </div>
+        </a></button></li>
+        <li class="dropdown">
+            <button class="button">
+            <a href="https://www.google.com/maps" target="_blank">Maps</a></button>
+            <div class="dropdown-content">
+                <div>Bike</div>
+                <div>Car</div>
+            </div>
+        </li>
     </ol>
 </body>
 </html>
