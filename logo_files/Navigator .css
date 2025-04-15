@@ -1,0 +1,36 @@
+.navClass{
+    background-color: aqua;
+    border-radius: 2vh;
+
+}
+li{
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+}
+.navClass ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+
+    
+}
+.navClass ul li:hover{
+    background-color: black;
+}
+#searchId{
+    display:inline-block ;
+    margin-left: 1200px;
+    
+}
+#searchId input{
+    border-radius: 5px;
+    background-image: url(Search.jpg);
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.navClass ul li a {
+    text-decoration: none;
+    
+}
