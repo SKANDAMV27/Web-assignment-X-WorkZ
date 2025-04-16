@@ -16,7 +16,8 @@ li{
     
 }
 .navClass ul li:hover{
-    background-color: black;
+    background-color: #000000;
+    
 }
 #searchId{
     display:inline-block ;
@@ -26,6 +27,10 @@ li{
 #searchId input{
     border-radius: 5px;
     background-image: url(Search.jpg);
+    background-size: cover;
+    height: 50px;
+    background-position: left;
+    width: 200px;
     padding: 10px;
     padding-top: 10px;
 }

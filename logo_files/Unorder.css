@@ -1,0 +1,16 @@
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    color: #450505;
+    padding: 12px 16px;
+    background-color: rgb(55,42,152);
+
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+
+}
