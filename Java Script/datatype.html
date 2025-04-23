@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datatype</title>
+    <script>
+        function onClick(){
+            let sum = 4+5;
+            alert("Hello")
+            console.log("Result: "+sum);
+            const pi = 3.14;
+            console.log("Result: "+pi)
+
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <button onclick="onClick()">Click Me</button>
+    </div>
+    <h1>
+        JavaScript Date
+    </h1>
+    <h2>
+        Using new Date()
+    </h2>
+    <p>
+        Create a new data object with the current date and time: 
+    </p>
+    <p id="demo"></p>
+    <script>
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d;
+        console.log(d.getDate());
+        console.log(d.getFullYear());
+        console.log(d.getDay());
+        
+    </script>
+</body>
+</html>
